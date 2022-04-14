@@ -18,7 +18,7 @@ const RandomPasswordGenerator = () => {
 
     const [password, setPassword] = useState("");
 
-    const clickHandler = () => {
+    const generateBtnClick = () => {
         setPassword(generateRandomPassword(
             data.length, 
             data.upper,
@@ -27,6 +27,13 @@ const RandomPasswordGenerator = () => {
             data.symbols
         ));
     };
+
+    const copyBtnClick = () => {
+        if (password) {
+            navigator.clipboard.writeText(password);
+            alert("Password Copied");
+        }
+    }
 
 
     return (
@@ -37,7 +44,7 @@ const RandomPasswordGenerator = () => {
 
                     <div className={styles.generatorInput}>
                         <span>{password}</span>
-                        <span><HiClipboardCopy /></span>
+                        <span onClick={copyBtnClick}><HiClipboardCopy /></span>
                     </div>
 
                     <div className={styles.conditionals}>
@@ -67,7 +74,7 @@ const RandomPasswordGenerator = () => {
                         </span>
                     </div>
 
-                    <button onClick={clickHandler}>Generate Password</button>
+                    <button onClick={generateBtnClick}>Generate Password</button>
 
                     <p>Text Copied To Clipboard!</p>
                 </div>

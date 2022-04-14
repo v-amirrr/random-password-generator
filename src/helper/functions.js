@@ -48,5 +48,7 @@ export const generateRandomPassword = (length, upper, lower, numbers, symbols) =
         });
     };
 
-    return generatedPassword.slice(0, length);
+    const finalPassword = generatedPassword.slice(0, length);
+
+    return finalPassword;
 }
