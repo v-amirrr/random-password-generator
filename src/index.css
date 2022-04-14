@@ -19,9 +19,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    background-image: url("./assets/Images/1\ \(6\).jpg");
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1600' height='1600' preserveAspectRatio='none' viewBox='0 0 1600 1600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1075%26quot%3b)' fill='none'%3e%3crect width='1600' height='1600' x='0' y='0' fill='url(%23SvgjsLinearGradient1076)'%3e%3c/rect%3e%3cpath d='M1600 0L1053.53 0L1600 286.01z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1053.53 0L1600 286.01L1600 588.69L927.49 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M927.49 0L1600 588.69L1600 1050.97L500.09000000000003 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M500.09000000000015 0L1600 1050.97L1600 1129.97L474.71000000000015 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 1600L246.83 1600L0 1355.67z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 1355.67L246.83 1600L980.74 1600L0 1353z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 1353L980.74 1600L1234.15 1600L0 563.91z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 563.9099999999999L1234.15 1600L1441.93 1600L0 342.41999999999985z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1075'%3e%3crect width='1600' height='1600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1076'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
     background-size: 100vw 100ch;
 }
 
