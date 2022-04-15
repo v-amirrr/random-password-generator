@@ -28,10 +28,10 @@ const RandomPasswordGenerator = () => {
         ));
     };
 
-    const copyBtnClick = () => {
+    const copyBtnClick = async () => {
         if (password) {
-            navigator.clipboard.writeText(password);
-            alert("Password Copied");
+            await navigator.clipboard.writeText(password);
+            alert("Password was copied!");
         }
     }
 
