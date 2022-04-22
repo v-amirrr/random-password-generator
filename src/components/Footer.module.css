@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    width: 100%;
+    padding: .5rem;
+}
+
+.footerGitHub {
+    font-size: 2rem;
+}
+
+.footer p span {
+    color: #ff0000;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}

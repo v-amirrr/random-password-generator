@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
+import styles from "./RandomPasswordGenerator.module.css";
 import { HiClipboardCopy } from "react-icons/hi";
 
-import styles from "./RandomPasswordGenerator.module.css";
-
 import { generateRandomPassword } from '../helper/functions';
+import Footer from "./Footer";
 
 const RandomPasswordGenerator = () => {
 
@@ -31,10 +31,11 @@ const RandomPasswordGenerator = () => {
     const copyBtnClick = async () => {
         if (password) {
             await navigator.clipboard.writeText(password);
-            alert("Password was copied!");
+            alert("Text was copied successfully.")
+        } else {
+            alert("First you should generate the password and then try to copy it.")
         }
     }
-
 
     return (
         <>
@@ -78,6 +79,8 @@ const RandomPasswordGenerator = () => {
 
                     <p>Text Copied To Clipboard!</p>
                 </div>
+
+                <div><Footer /></div>
             </div>
         </>
     );
